@@ -20,6 +20,9 @@ exports.json = async host => {
   if (typeof whois !== 'string') {
     return whois;
   }
+  
+  let whoisParsed = await parse(whois, host);
+  whoisParsed.raw = whois;
 
-  return await parse(whois, host);
+  return whoisParsed;
 };
