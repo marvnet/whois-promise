@@ -20,4 +20,14 @@ describe('whois', () => {
       done();
     })
   });
+  it('should return raw in json whois', done => {
+    whois.json('mozilla.org')
+      .then((response) => {
+         if(response["raw"] != undefined) {
+           done();
+         } else {
+           done(1);
+         }
+      })
+  });
 });
