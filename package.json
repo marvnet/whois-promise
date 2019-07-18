@@ -1,11 +1,11 @@
 {
-  "name": "whois-promise",
+  "name": "@marvnet/whois-promise",
   "version": "1.2.3",
   "description": "A WHOIS promise client for NodeJS ",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxorelus/whois-promise"
+    "url": "git+https://github.com/marvnet/whois-promise"
   },
   "author": "Max Orelus <me@maxorelus.com>",
   "license": "MIT",
@@ -22,9 +22,9 @@
     "ip whois"
   ],
   "bugs": {
-    "url": "https://github.com/maxorelus/whois-promise/issues"
+    "url": "https://github.com/marvnet/whois-promise/issues"
   },
-  "homepage": "https://github.com/maxorelus/whois-promise#readme",
+  "homepage": "https://github.com/marvnet/whois-promise#readme",
   "dependencies": {
     "validator": "^9.4.0",
     "whois": "^2.5.9"
